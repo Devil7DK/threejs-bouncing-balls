@@ -1,17 +1,10 @@
 import React, { useMemo } from 'react';
 
-import { Point, Point2 } from '../../types';
+import { BoxProps, Point2 } from '../../types';
 import { connectPoints } from '../../utils/Drawing';
 import { Line } from '../Line';
 
-interface IProps {
-    position: Point;
-    height: number;
-    width: number;
-    length: number;
-}
-
-export const Box: React.FC<IProps> = (props) => {
+export const Box: React.FC<BoxProps> = (props) => {
     const lines = useMemo<Point2[]>(() => {
         const {
             position: [x, y, z],
