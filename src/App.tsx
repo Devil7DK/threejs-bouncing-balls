@@ -10,8 +10,7 @@ export const App: React.FC = () => {
         <Canvas>
             <ambientLight />
             <pointLight position={[10, 10, 10]} />
-            <Box position={[-1.2, 0, 0]} />
-            <Box position={[1.2, 0, 0]} />
+            <Box position={[0, 0, 0]} height={10} length={10} width={10} />
         </Canvas>
     );
 };
