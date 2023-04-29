@@ -1,0 +1,25 @@
+{
+  "name": "bouncing-ball-3d",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^8.13.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.152.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.8.3",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.1",
+    "@types/three": "^0.151.0",
+    "parcel": "^2.8.3",
+    "prettier": "^2.8.8",
+    "process": "^0.11.10",
+    "typescript": "^5.0.4"
+  }
+}
