@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html --no-hmr"
   },
   "dependencies": {
     "@react-three/fiber": "^8.13.0",
