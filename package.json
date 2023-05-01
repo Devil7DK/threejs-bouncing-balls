@@ -1,10 +1,10 @@
 {
   "name": "bouncing-ball-3d",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html --no-hmr"
+    "start": "parcel src/index.html --no-hmr",
+    "build": "parcel build src/index.html"
   },
   "dependencies": {
     "@react-three/drei": "^9.66.1",
